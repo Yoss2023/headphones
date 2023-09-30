@@ -1,0 +1,41 @@
+/* ... (existing code) ... */
+
+/* What we do Section Styles */
+.what-we-do {
+    background-color: #f8f8f8;
+    padding: 5rem 0;
+}
+
+.what-we-do h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 0 0 calc(33.3333% - 2rem); /* Adjust the width as needed */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service i {
+    font-size: 3rem;
+    color: #333; /* Adjust the color as needed */
+    margin-bottom: 1rem;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #666; /* Adjust the color as needed */
+}
+
